@@ -55,15 +55,11 @@ Apply the following bucket policy to allow public read access:
 
 ```bash
 # Upload all files to S3
-
-# Or upload individual files
-aws s3 cp index.html s3://your-unique-bucket-name/
-aws s3 cp styles.css s3://your-unique-bucket-name/
 ```
 
 ### 4. Access Your Website
 
-Your website will be available at:
+website will be available at:
 ```
 http://vitsinpeace.s3-website-us-east-1.amazonaws.com/
 ```
